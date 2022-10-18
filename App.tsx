@@ -1,8 +1,18 @@
 import React from 'react';
-import { View } from 'react-native';
+import { ThemeProvider } from '@emotion/react';
+import { useColorScheme, View } from 'react-native';
+import { ColorScheme, DarkTheme, LightTheme } from './src/theme/Themes';
 
 const App = () => {
-  return <View />;
+  const colorScheme = useColorScheme();
+
+  return (
+    <ThemeProvider
+      theme={colorScheme === ColorScheme.DARK ? DarkTheme : LightTheme}
+    >
+      <View />
+    </ThemeProvider>
+  );
 };
 
 export default App;
