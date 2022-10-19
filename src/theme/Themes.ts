@@ -12,20 +12,12 @@ const ColorScheme = {
 
 const LightTheme = {
   ...DefaultTheme,
-  colors: {
-    ...DefaultTheme.colors,
-    ...lightColors,
-    textColor: lightColors.text300,
-  },
+  colors: lightColors,
 };
 
 const DarkTheme = {
   ...DefaultDarkTheme,
-  colors: {
-    ...DefaultDarkTheme.colors,
-    ...darkColors,
-    textColor: darkColors.text300,
-  },
+  colors: darkColors,
 };
 
 export { ColorScheme, LightTheme, DarkTheme };

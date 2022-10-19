@@ -11,6 +11,7 @@
 - Language: Typescript
 - Linting tool: EsLint
 - Code formatter: Prettier
+- Styling lib: emotion/native
 
 <h2>Setup</h2>
 
@@ -19,7 +20,7 @@
 <h3>Uses</h3>
 
 - React Native v0.70.1
-- Node v16.16.0 (Look at \_node-version)
+- Node v16.10.0 (Look at \_node-version)
 - Ruby v2.7.5 (Look at \_ruby-version)
 
 <h3>Steps to Run</h3>

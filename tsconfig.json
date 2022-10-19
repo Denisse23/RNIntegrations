@@ -10,9 +10,20 @@
       "moduleResolution": "node",
       "noEmit": true,
       "strict": true,
-      "target": "esnext"
+      "target": "esnext", 
+      "baseUrl": ".",
+      "paths": {
+        "@components/*": ["src/components/*"],
+        "@localization": ["src/localization"],
+        "@redux/*": ["src/redux/*"],
+        "@services/*": ["src/services/*"],
+        "@styles/*": ["src/styles/*"],
+        "@theme": ["src/theme"],
+        "@utils/*": ["src/utils/*"],
+      }
     },
     "include": [
+      "./src",
       "./**/*",
       "./*",
       ".eslintrc.js"
