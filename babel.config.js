@@ -15,6 +15,7 @@ module.exports = {
     alias: {
       "@components": "./src/components/*",
       "@localization": "./src/localization",
+      "@navigation": "./src/navigation/*",
       "@redux": "./src/redux/*",
       "@services": "./src/services/*",
       "@styles": "./src/styles/*",
