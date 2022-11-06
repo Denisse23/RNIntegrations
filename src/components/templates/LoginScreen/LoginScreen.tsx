@@ -1,7 +1,8 @@
 import React from 'react';
+import { Button } from '@components/atoms';
 
 const LoginScreen = () => {
-  return <></>;
+  return <Button text="HI" type="primary" />;
 };
 
 export default LoginScreen;

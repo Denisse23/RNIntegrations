@@ -13,14 +13,14 @@ module.exports = {
       '.json',
     ],
     alias: {
-      "@components": "./src/components/*",
+      "@components": "./src/components",
       "@localization": "./src/localization",
-      "@navigation": "./src/navigation/*",
-      "@redux": "./src/redux/*",
-      "@services": "./src/services/*",
-      "@styles": "./src/styles/*",
+      "@navigation": "./src/navigation",
+      "@redux": "./src/redux",
+      "@services": "./src/services",
+      "@styles": "./src/styles",
       "@theme": "./src/theme",
-      "@utils": "./src/utils/*",
+      "@utils": "./src/utils",
     }
   }]],
 };
