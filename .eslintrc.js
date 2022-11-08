@@ -9,10 +9,4 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'], // RN plugins for typescript
-  globals: {
-    by: 'readonly',
-    device: 'readonly',
-    element: 'readonly',
-    waitFor: 'readonly',
-  },
 };

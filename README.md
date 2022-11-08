@@ -2,16 +2,18 @@
 
 <h2>About...</h2>
 
-- Ilustrate the basic React Native app functionallity
-- Goal: Support different third party integrations and
+- Ilustrate a basic React Native app functionallity.
+- Goal: Support some esential libraries and a few features needed to be ready to start a new RN App.
 
-<h2>Project configurations</h2>
+<h2>Project default configuratios and </h2>
 
 - React Native CLI
 - Language: Typescript
 - Linting tool: EsLint
 - Code formatter: Prettier
+  (Runs Prettier as an ESLint rule for that eslint-plugin-prettier is used as dev dependency)
 - Styling lib: emotion/native
+- UI Testing: Jest snapshots
 
 <h2>Setup</h2>
 
