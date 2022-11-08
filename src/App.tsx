@@ -1,18 +1,12 @@
 import React from 'react';
-import { ThemeProvider } from '@emotion/react';
-import { useColorScheme } from 'react-native';
 import RootNavigation from '@navigation/RootNavigation';
-import { ColorScheme, DarkTheme, LightTheme } from './theme/Themes';
+import CustomThemeProvider from '@theme/CustomThemeProvider';
 
 const App = () => {
-  const colorScheme = useColorScheme();
-
   return (
-    <ThemeProvider
-      theme={colorScheme === ColorScheme.DARK ? DarkTheme : LightTheme}
-    >
+    <CustomThemeProvider>
       <RootNavigation />
-    </ThemeProvider>
+    </CustomThemeProvider>
   );
 };
 
