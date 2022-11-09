@@ -6,12 +6,7 @@ export interface CustomTextProps extends TextProps {
   type?: 'bold' | 'regular';
 }
 
-const CustomText = ({
-  size = 'sm',
-  type = 'regular',
-  children,
-  ...rest
-}: CustomTextProps) => {
+const CustomText = ({ size, type, children, ...rest }: CustomTextProps) => {
   return (
     <StyledText size={size} type={type} {...rest}>
       {children}

@@ -5,6 +5,9 @@ import {
 import lightColors from './LightColors';
 import darkColors from './DarkColors';
 import FontSizes from './FontSizes';
+import Spacings from './Spacings';
+import BoderRadius from './BoderRadius';
+import Opacities from './Opacities';
 
 const ColorScheme = {
   LIGHT: 'light',
@@ -13,6 +16,9 @@ const ColorScheme = {
 
 const generalTheme = {
   fontSizes: FontSizes,
+  spacings: Spacings,
+  borderRadius: BoderRadius,
+  opacities: Opacities,
 };
 
 const LightTheme = {

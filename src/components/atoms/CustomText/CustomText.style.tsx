@@ -2,9 +2,9 @@ import styled from '@emotion/native';
 import { CustomTextProps } from './CustomText';
 
 export const StyledText = styled.Text<CustomTextProps>(
-  ({ theme, size = 'sm', type = 'regular' }) => ({
+  ({ theme, size, type }) => ({
     color: theme.colors.text300,
-    fontSize: theme.fontSizes[size],
+    fontSize: size ? theme.fontSizes[size] : theme.fontSizes.sm,
     fontWeight: type === 'bold' ? '700' : '400',
   }),
 );

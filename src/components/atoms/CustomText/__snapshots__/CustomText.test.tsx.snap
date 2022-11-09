@@ -2,18 +2,16 @@
 
 exports[`CustomText should match the snapshot 1`] = `
 <Text
-  size="sm"
   style={
     Array [
       Object {
-        "color": "#252536",
+        "color": "#1c1b1b",
         "fontSize": 28.125,
         "fontWeight": "400",
       },
       undefined,
     ]
   }
-  type="regular"
 >
   Test
 </Text>

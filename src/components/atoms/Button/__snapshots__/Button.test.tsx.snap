@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Primary Button should match the snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#E5B600",
+      "borderRadius": 37.5,
+      "opacity": 0.6,
+      "padding": 28.125,
+    }
+  }
+>
+  <Text
+    size="md"
+    style={
+      Array [
+        Object {
+          "color": "#1c1b1b",
+          "fontSize": 32.8125,
+          "fontWeight": "700",
+        },
+        Object {
+          "color": "#FFFFFF",
+        },
+      ]
+    }
+    type="bold"
+  >
+    Primary Button
+  </Text>
+</View>
+`;
+
+exports[`Button Primary Text Button should match the snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 37.5,
+      "opacity": 0.6,
+      "padding": 28.125,
+    }
+  }
+>
+  <Text
+    size="md"
+    style={
+      Array [
+        Object {
+          "color": "#1c1b1b",
+          "fontSize": 32.8125,
+          "fontWeight": "700",
+        },
+        Object {
+          "color": "#E5B600",
+        },
+      ]
+    }
+    type="bold"
+  >
+    Primary Text Button
+  </Text>
+</View>
+`;
+
+exports[`Button Secondary Button should match the snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#cfcfd1",
+      "borderRadius": 37.5,
+      "opacity": 0.6,
+      "padding": 28.125,
+    }
+  }
+>
+  <Text
+    size="md"
+    style={
+      Array [
+        Object {
+          "color": "#1c1b1b",
+          "fontSize": 32.8125,
+          "fontWeight": "700",
+        },
+        Object {
+          "color": "#1c1b1b",
+        },
+      ]
+    }
+    type="bold"
+  >
+    Secondary Button
+  </Text>
+</View>
+`;
+
+exports[`Button Secondary Text Button should match the snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 37.5,
+      "opacity": 0.6,
+      "padding": 28.125,
+    }
+  }
+>
+  <Text
+    size="md"
+    style={
+      Array [
+        Object {
+          "color": "#1c1b1b",
+          "fontSize": 32.8125,
+          "fontWeight": "700",
+        },
+        Object {
+          "color": "#363641",
+        },
+      ]
+    }
+    type="bold"
+  >
+    Secondary Text Button
+  </Text>
+</View>
+`;

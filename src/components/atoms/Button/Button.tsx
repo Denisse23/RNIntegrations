@@ -16,7 +16,7 @@ const Button = ({ type, text, ...rest }: ButtonProps) => {
       case 'primary':
         return theme.colors.text100;
       case 'secondary':
-        return theme.colors.text200;
+        return theme.colors.text300;
       case 'primaryText':
         return theme.colors.text400;
       case 'secondaryText':
