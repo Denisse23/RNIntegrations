@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextProps } from 'react-native';
-import { StyledText } from './CustomText.style';
+import { StyledText } from './CustomText.styles';
 export interface CustomTextProps extends TextProps {
   size?: 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
   type?: 'bold' | 'regular';

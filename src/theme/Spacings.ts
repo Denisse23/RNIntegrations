@@ -6,5 +6,5 @@ export default {
   lg: scaleBySize(8),
   xl: scaleBySize(12),
   xxl: scaleBySize(16),
-  xxxl: scaleBySize(20),
+  xxxl: scaleBySize(32),
 };

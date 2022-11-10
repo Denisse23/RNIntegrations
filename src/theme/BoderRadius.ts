@@ -1,8 +1,7 @@
 import { scaleBySize } from '@utils/Scale';
 
 export default {
-  sm: scaleBySize(4),
-  md: scaleBySize(8),
-  lg: scaleBySize(16),
-  xl: scaleBySize(32),
+  sm: scaleBySize(8),
+  md: scaleBySize(16),
+  lg: scaleBySize(32),
 };

@@ -1,6 +1,7 @@
 import styled from '@emotion/native';
 import { ThemeType } from '@theme/Themes';
 import { ButtonProps } from './Button';
+import { Shadow } from '@styles/SharedStyles';
 
 const getButtonBackgroundColor = (
   theme: ThemeType,
@@ -8,9 +9,9 @@ const getButtonBackgroundColor = (
 ) => {
   switch (type) {
     case 'primary':
-      return theme.colors.primary500;
+      return theme.colors.background400;
     case 'secondary':
-      return theme.colors.secondary500;
+      return theme.colors.background300;
     case 'primaryText':
       return theme.colors.background100;
     case 'secondaryText':
@@ -25,5 +26,6 @@ export const StyledButton = styled.TouchableOpacity<ButtonProps>(
     padding: theme.spacings.xl,
     borderRadius: theme.borderRadius.lg,
     opacity: theme.opacities[300],
+    ...Shadow,
   }),
 );
