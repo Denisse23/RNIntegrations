@@ -25,7 +25,12 @@ const Button = ({ type, text, ...rest }: ButtonProps) => {
   };
 
   return (
-    <StyledButton type={type} text={text} {...rest}>
+    <StyledButton
+      type={type}
+      text={text}
+      activeOpacity={theme.opacities[300]}
+      {...rest}
+    >
       <CustomText
         type={'bold'}
         size={'md'}

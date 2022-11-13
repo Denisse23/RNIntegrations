@@ -17,16 +17,3 @@ export const Divider = styled.View(({ theme }) => ({
 export const LargeDivider = styled.View(({ theme }) => ({
   height: theme.spacings.xxxl,
 }));
-
-export const Shadow = (theme: ThemeType) => {
-  return {
-    shadowColor: theme.colors.shadow,
-    shadowOffset: {
-      width: scaleBySize(40),
-      height: scaleBySize(40),
-    },
-    shadowRadius: theme.borderRadius.lg,
-    elevation: scaleBySize(12),
-    shadowOpacity: theme.opacities['500'],
-  };
-};

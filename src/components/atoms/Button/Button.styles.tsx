@@ -2,6 +2,7 @@ import styled from '@emotion/native';
 import { ThemeType } from '@theme/Themes';
 import { ButtonProps } from './Button';
 import { Shadow } from '@styles/SharedStyles';
+import { scaleBySize } from '../../../utils/Scale';
 
 const getButtonBackgroundColor = (
   theme: ThemeType,
@@ -23,9 +24,9 @@ export const StyledButton = styled.TouchableOpacity<ButtonProps>(
   ({ theme, type }) => ({
     backgroundColor: getButtonBackgroundColor(theme, type),
     alignItems: 'center',
-    padding: theme.spacings.xl,
+    justifyContent: 'center',
+    height: scaleBySize(46),
     borderRadius: theme.borderRadius.lg,
-    opacity: theme.opacities[300],
     ...Shadow,
   }),
 );

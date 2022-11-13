@@ -10,5 +10,4 @@ export default {
   info400: '#A9A8A3',
   warning400: '#F37B0C',
   danger400: '#E03D17',
-  shadow: '#0D0C0B',
 };
