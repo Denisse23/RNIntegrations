@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { useTheme } from '@emotion/react';
-import { LoginScreen } from '@components/templates';
+import { LoginScreen, SignUpScreen } from '@components/templates';
 import { ScreenStyle } from '@styles/ScreenOptions';
 import { RootStackParamsList } from './types';
 
@@ -16,6 +16,11 @@ const AuthStackNavigator = () => {
         key={'LoginScreen'}
         name={'LoginScreen'}
         component={LoginScreen}
+      />
+      <Stack.Screen
+        key={'SignUpScreen'}
+        name={'SignUpScreen'}
+        component={SignUpScreen}
       />
     </Stack.Navigator>
   );
