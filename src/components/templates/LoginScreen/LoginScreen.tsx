@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import CONFIG from 'react-native-config';
 import { useNavigation } from '@react-navigation/native';
 import { Button, CustomInput, CustomText } from '@components/atoms';
 import { FormLayout } from '@components/organisms';
@@ -23,7 +24,7 @@ const LoginScreen = () => {
     <FormLayout>
       <StyledContainer>
         <CustomText size="xxl" type="bold">
-          {strings.authentication.login}
+          {`${strings.authentication.login} ${CONFIG.BUILD_ENV}`}
         </CustomText>
         <LargeDivider />
         <CustomInput

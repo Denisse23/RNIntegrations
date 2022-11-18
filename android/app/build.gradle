@@ -1,4 +1,10 @@
 apply plugin: "com.android.application"
+project.ext.envConfigFiles = [
+        dev: ".env",
+        prod: ".env.prod",
+        qa: ".env.qa",
+]
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 
 import com.android.build.OutputFile
 import org.apache.tools.ant.taskdefs.condition.Os
@@ -141,6 +147,7 @@ android {
         versionCode 1
         versionName "1.0"
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
+        resValue "string", "build_config_package", "com.rnintegrations"
 
         if (isNewArchitectureEnabled()) {
             // We configure the CMake build only if you decide to opt-in for the New Architecture.
@@ -228,6 +235,25 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+
+    flavorDimensions "environment"
+    productFlavors {
+        dev {
+            dimension "environment"
+            applicationIdSuffix ".dev"
+            versionName project.env.get("APP_VERSION_NAME")
+        }
+        prod {
+            dimension "environment"
+            applicationIdSuffix ".prod"
+            versionName project.env.get("APP_VERSION_NAME")
+        }
+        qa {
+            dimension "environment"
+            applicationIdSuffix ".qa"
+            versionName project.env.get("APP_VERSION_NAME")
         }
     }
 

@@ -63,5 +63,9 @@ buck-out/
 /ios/Pods/
 /vendor/bundle/
 
+#Envs
+.env
+.env.*
+
 # Tests
 /test/coverage
