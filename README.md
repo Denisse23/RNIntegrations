@@ -5,13 +5,13 @@
 - Ilustrate a basic React Native app functionallity.
 - Goal: Support some esential libraries and a few implementations needed to be ready to start a new RN App.
 
-<h2>Project default configuratios</h2>
+<h2>Project default configurations</h2>
 
 - React Native CLI
 - Language: Typescript
 - Linting tool: EsLint
 - Code formatter: Prettier
-  (Runs Prettier as an ESLint rule for that eslint-plugin-prettier is used as dev dependency)
+  (Runs Prettier as an ESLint rule for the eslint-plugin-prettier. It is used as dev dependency)
 - Styling lib: emotion/native
 
 <h2>Setup</h2>
@@ -56,6 +56,7 @@ yarn ios
 
 <h2>Implementations</h2>
 
+- Environments handling with [react-native-config] (https://github.com/luggit/react-native-config)
 - Strings Localization
 - Theming with emotion and custom
 - UI Testing: Jest snapshots
