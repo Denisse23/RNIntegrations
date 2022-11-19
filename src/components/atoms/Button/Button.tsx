@@ -9,7 +9,7 @@ export interface ButtonProps extends TouchableOpacityProps {
   text: string;
 }
 
-const Button = ({ type, text, ...rest }: ButtonProps) => {
+const Button = ({ type, text, testID, ...rest }: ButtonProps) => {
   const theme = useTheme();
   const buttonTextColor = () => {
     switch (type) {
@@ -29,6 +29,8 @@ const Button = ({ type, text, ...rest }: ButtonProps) => {
       type={type}
       text={text}
       activeOpacity={theme.opacities[300]}
+      testID={testID}
+      accessibilityLabel={testID}
       {...rest}
     >
       <CustomText

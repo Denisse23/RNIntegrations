@@ -26,6 +26,7 @@ const CustomInput = ({
   placeholder,
   value,
   onChangeText,
+  testID,
   ...rest
 }: CustomInputProps) => {
   const theme = useTheme();
@@ -53,6 +54,8 @@ const CustomInput = ({
           placeholderTextColor={theme.colors.text200}
           value={value}
           onChangeText={onChangeText}
+          testID={testID}
+          accessibilityLabel={testID}
           {...rest}
         />
       </StyledContainer>

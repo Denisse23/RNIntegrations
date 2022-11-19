@@ -1,15 +1,16 @@
 import React from 'react';
-import { Keyboard } from 'react-native';
+import { Keyboard, ViewProps } from 'react-native';
 import { Layout } from '@components/organisms';
 import { StyledTouchableWithoutFeedback } from './FormLayout.styles';
 
 export interface FormLayoutProps {
+  testID?: ViewProps['testID'];
   children?: React.ReactNode;
 }
 
-const FormLayout = ({ children }: FormLayoutProps) => {
+const FormLayout = ({ testID, children }: FormLayoutProps) => {
   return (
-    <Layout>
+    <Layout testID={testID}>
       <StyledTouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
         {children}
       </StyledTouchableWithoutFeedback>

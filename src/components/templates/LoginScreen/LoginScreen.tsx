@@ -5,7 +5,7 @@ import { Button, CustomInput, CustomText } from '@components/atoms';
 import { FormLayout } from '@components/organisms';
 import { NavigationType } from '@navigation/types';
 import { Divider, LargeDivider } from '@styles/SharedStyles';
-import { INPUT_COMMON_PROPS } from '@constants';
+import { INPUT_COMMON_PROPS, TEST_IDS } from '@constants';
 import { StyledContainer } from './LoginScreen.styles';
 import strings from '@localization';
 
@@ -21,7 +21,7 @@ const LoginScreen = () => {
   };
 
   return (
-    <FormLayout>
+    <FormLayout testID={TEST_IDS.templates.signInScreen}>
       <StyledContainer>
         <CustomText size="xxl" type="bold">
           {`${strings.authentication.login} ${CONFIG.BUILD_ENV}`}
@@ -50,6 +50,7 @@ const LoginScreen = () => {
           text={strings.authentication.login}
           type="primary"
           disabled={loginDisabled()}
+          testID={TEST_IDS.buttons.signInButton}
         />
         <Button
           text={strings.authentication.notAccount}

@@ -3,7 +3,7 @@ import { useNavigation } from '@react-navigation/native';
 import { Button, CustomInput, CustomText } from '@components/atoms';
 import { FormLayout } from '@components/organisms';
 import { NavigationType } from '@navigation/types';
-import { INPUT_COMMON_PROPS } from '@constants';
+import { INPUT_COMMON_PROPS, TEST_IDS } from '@constants';
 import { Divider, LargeDivider } from '@styles/SharedStyles';
 import { StyledContainer } from './SignUpScreen.styles';
 import strings from '@localization';
@@ -50,7 +50,7 @@ const SignUpScreen = () => {
   };
 
   return (
-    <FormLayout>
+    <FormLayout testID={TEST_IDS.templates.signUpScreen}>
       <StyledContainer>
         <CustomText size="xxl" type="bold">
           {strings.authentication.createAnAccount}

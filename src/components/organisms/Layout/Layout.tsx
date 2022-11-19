@@ -1,18 +1,19 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, ViewProps } from 'react-native';
 import { StyledSafeAreView, StyledContainer } from './Layout.styles';
 
 export interface LayoutProps {
-  scroll?: Boolean;
+  scroll?: boolean;
   children?: React.ReactNode;
+  testID?: ViewProps['testID'];
 }
 
-const Layout = ({ scroll = true, children }: LayoutProps) => {
+const Layout = ({ scroll = true, testID, children }: LayoutProps) => {
   const getContainer = () => {
     return <StyledContainer>{children}</StyledContainer>;
   };
   return (
-    <StyledSafeAreView>
+    <StyledSafeAreView testID={testID} accessibilityLabel={testID}>
       {scroll ? (
         <ScrollView showsVerticalScrollIndicator={false}>
           {getContainer()}
