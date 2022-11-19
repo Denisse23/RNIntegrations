@@ -45,13 +45,29 @@ pod install
 <h4>Android</h4>
 
 ```
-yarn android
+yarn android_dev -> Development Environment
+```
+
+```
+yarn android_qa -> QA Environment
+```
+
+```
+yarn android_prod -> Production Environment
 ```
 
 <h4>ios</h4>
 
 ```
-yarn ios
+yarn ios_dev -> Development Environment
+```
+
+```
+yarn ios_qa -> QA Environment
+```
+
+```
+yarn ios_prod -> Production Environment
 ```
 
 <h2>Implementations</h2>
