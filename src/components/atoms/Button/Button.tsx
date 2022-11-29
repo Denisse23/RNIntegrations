@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTheme } from '@emotion/react';
 import { TouchableOpacityProps } from 'react-native';
-import { CustomText } from '@components/atoms';
+import CustomText from '@components/atoms/CustomText/CustomText';
 import { StyledButton } from './Button.styles';
 
 export interface ButtonProps extends TouchableOpacityProps {

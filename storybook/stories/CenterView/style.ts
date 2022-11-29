@@ -1,0 +1,9 @@
+import { ViewStyle } from 'react-native';
+
+export default {
+  main: {
+    flex: 1,
+    justifyContent: 'center',
+    backgroundColor: '#F5FCFF',
+  } as ViewStyle,
+};

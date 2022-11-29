@@ -1,6 +1,6 @@
 import styled from '@emotion/native';
 import { ViewProps } from 'react-native';
-import { CustomText } from '@components/atoms';
+import CustomText from '@components/atoms/CustomText/CustomText';
 import { ThemeType } from '@theme/Themes';
 import { scaleBySize } from '@utils/Scale';
 import { applyOpacityToHex } from '@utils/Opacity';
