@@ -4,7 +4,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 platform :ios, '12.4'
 install! 'cocoapods', :deterministic_uuids => false
 
-target 'RNIntegrations' do
+abstract_target 'RNIntegrations' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -26,9 +26,16 @@ target 'RNIntegrations' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'RNIntegrationsTests' do
-    inherit! :complete
-    # Pods for testing
+  target 'Dev' do
+    # Dev-specific pods
+  end
+
+  target 'Prod' do
+    # Prod-specific pods
+  end
+
+  target 'QA' do
+    # QA-specific pods
   end
 
   post_install do |installer|

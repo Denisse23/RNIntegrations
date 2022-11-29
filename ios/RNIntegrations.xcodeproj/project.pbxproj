@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151F366DF9C6BD144B892F45 /* libPods-RNIntegrations-QA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDFD53A0945E68AABB49825 /* libPods-RNIntegrations-QA.a */; };
+		3223087E05860DF26EE00919 /* libPods-RNIntegrations-Prod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9751564E555AF7BF50D67068 /* libPods-RNIntegrations-Prod.a */; };
 		B78387AD29276D6700E5CFF8 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		B78387AE29276D6700E5CFF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		B78387B029276D6700E5CFF8 /* libPods-RNIntegrations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNIntegrations.a */; };
 		B78387B229276D6700E5CFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B78387B329276D6700E5CFF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		B78387C029276D7600E5CFF8 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		B78387C129276D7600E5CFF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		B78387C329276D7600E5CFF8 /* libPods-RNIntegrations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNIntegrations.a */; };
 		B78387C529276D7600E5CFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B78387C629276D7600E5CFF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		B78387D329276D9700E5CFF8 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		B78387D429276D9700E5CFF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		B78387D629276D9700E5CFF8 /* libPods-RNIntegrations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNIntegrations.a */; };
 		B78387D829276D9700E5CFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B78387D929276D9700E5CFF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		BBFF3EBFF2E6D835AD3AB7D5 /* libPods-RNIntegrations-Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC074D326AD0B8AA5D45CC67 /* libPods-RNIntegrations-Dev.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +30,18 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNIntegrations/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNIntegrations/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNIntegrations-RNIntegrationsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNIntegrations-RNIntegrationsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2815BE001F75686EC1303424 /* Pods-RNIntegrations-Prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIntegrations-Prod.debug.xcconfig"; path = "Target Support Files/Pods-RNIntegrations-Prod/Pods-RNIntegrations-Prod.debug.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RNIntegrations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIntegrations.debug.xcconfig"; path = "Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations.debug.xcconfig"; sourceTree = "<group>"; };
+		52EFA76CABE409B666E3B8F5 /* Pods-RNIntegrations-QA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIntegrations-QA.release.xcconfig"; path = "Target Support Files/Pods-RNIntegrations-QA/Pods-RNIntegrations-QA.release.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNIntegrations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIntegrations.release.xcconfig"; path = "Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNIntegrations-RNIntegrationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIntegrations-RNIntegrationsTests.debug.xcconfig"; path = "Target Support Files/Pods-RNIntegrations-RNIntegrationsTests/Pods-RNIntegrations-RNIntegrationsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-RNIntegrations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNIntegrations.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA1BF0BC84FC99EA63F5923 /* Pods-RNIntegrations-Prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIntegrations-Prod.release.xcconfig"; path = "Target Support Files/Pods-RNIntegrations-Prod/Pods-RNIntegrations-Prod.release.xcconfig"; sourceTree = "<group>"; };
+		7604A2512B4D5463CA2F06EB /* Pods-RNIntegrations-QA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIntegrations-QA.debug.xcconfig"; path = "Target Support Files/Pods-RNIntegrations-QA/Pods-RNIntegrations-QA.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNIntegrations/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNIntegrations-RNIntegrationsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIntegrations-RNIntegrationsTests.release.xcconfig"; path = "Target Support Files/Pods-RNIntegrations-RNIntegrationsTests/Pods-RNIntegrations-RNIntegrationsTests.release.xcconfig"; sourceTree = "<group>"; };
+		9751564E555AF7BF50D67068 /* libPods-RNIntegrations-Prod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNIntegrations-Prod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA63A1EA2BB39BE2E94C14D /* Pods-RNIntegrations-Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIntegrations-Dev.release.xcconfig"; path = "Target Support Files/Pods-RNIntegrations-Dev/Pods-RNIntegrations-Dev.release.xcconfig"; sourceTree = "<group>"; };
+		A617F5578EB093A384483D18 /* Pods-RNIntegrations-Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIntegrations-Dev.debug.xcconfig"; path = "Target Support Files/Pods-RNIntegrations-Dev/Pods-RNIntegrations-Dev.debug.xcconfig"; sourceTree = "<group>"; };
 		B78387A829276ABD00E5CFF8 /* RNIntegrations.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = RNIntegrations.entitlements; path = RNIntegrations/RNIntegrations.entitlements; sourceTree = "<group>"; };
 		B78387BA29276D6700E5CFF8 /* Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78387CD29276D7600E5CFF8 /* Prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prod.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +49,9 @@
 		B78387F129277D2E00E5CFF8 /* Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Prod-Info.plist"; path = "RNIntegrations/Prod-Info.plist"; sourceTree = "<group>"; };
 		B78387F229277D2E00E5CFF8 /* QA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "QA-Info.plist"; path = "RNIntegrations/QA-Info.plist"; sourceTree = "<group>"; };
 		B78387F329277D2E00E5CFF8 /* Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Dev-Info.plist"; path = "RNIntegrations/Dev-Info.plist"; sourceTree = "<group>"; };
+		CC074D326AD0B8AA5D45CC67 /* libPods-RNIntegrations-Dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNIntegrations-Dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FDDFD53A0945E68AABB49825 /* libPods-RNIntegrations-QA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNIntegrations-QA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78387B029276D6700E5CFF8 /* libPods-RNIntegrations.a in Frameworks */,
+				BBFF3EBFF2E6D835AD3AB7D5 /* libPods-RNIntegrations-Dev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78387C329276D7600E5CFF8 /* libPods-RNIntegrations.a in Frameworks */,
+				3223087E05860DF26EE00919 /* libPods-RNIntegrations-Prod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78387D629276D9700E5CFF8 /* libPods-RNIntegrations.a in Frameworks */,
+				151F366DF9C6BD144B892F45 /* libPods-RNIntegrations-QA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-RNIntegrations.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNIntegrations-RNIntegrationsTests.a */,
+				CC074D326AD0B8AA5D45CC67 /* libPods-RNIntegrations-Dev.a */,
+				9751564E555AF7BF50D67068 /* libPods-RNIntegrations-Prod.a */,
+				FDDFD53A0945E68AABB49825 /* libPods-RNIntegrations-QA.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,6 +148,12 @@
 				5709B34CF0A7D63546082F79 /* Pods-RNIntegrations.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-RNIntegrations-RNIntegrationsTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-RNIntegrations-RNIntegrationsTests.release.xcconfig */,
+				A617F5578EB093A384483D18 /* Pods-RNIntegrations-Dev.debug.xcconfig */,
+				9CA63A1EA2BB39BE2E94C14D /* Pods-RNIntegrations-Dev.release.xcconfig */,
+				2815BE001F75686EC1303424 /* Pods-RNIntegrations-Prod.debug.xcconfig */,
+				5BA1BF0BC84FC99EA63F5923 /* Pods-RNIntegrations-Prod.release.xcconfig */,
+				7604A2512B4D5463CA2F06EB /* Pods-RNIntegrations-QA.debug.xcconfig */,
+				52EFA76CABE409B666E3B8F5 /* Pods-RNIntegrations-QA.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -285,7 +301,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNIntegrations-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNIntegrations-Dev-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,15 +349,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Dev/Pods-RNIntegrations-Dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Dev/Pods-RNIntegrations-Dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Dev/Pods-RNIntegrations-Dev-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B78387B629276D6700E5CFF8 /* [CP] Copy Pods Resources */ = {
@@ -350,15 +366,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Dev/Pods-RNIntegrations-Dev-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Dev/Pods-RNIntegrations-Dev-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Dev/Pods-RNIntegrations-Dev-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B78387BD29276D7600E5CFF8 /* [CP] Check Pods Manifest.lock */ = {
@@ -376,7 +392,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNIntegrations-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNIntegrations-Prod-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,15 +440,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Prod/Pods-RNIntegrations-Prod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Prod/Pods-RNIntegrations-Prod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Prod/Pods-RNIntegrations-Prod-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B78387C929276D7600E5CFF8 /* [CP] Copy Pods Resources */ = {
@@ -441,15 +457,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Prod/Pods-RNIntegrations-Prod-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Prod/Pods-RNIntegrations-Prod-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-Prod/Pods-RNIntegrations-Prod-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B78387D029276D9700E5CFF8 /* [CP] Check Pods Manifest.lock */ = {
@@ -467,7 +483,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNIntegrations-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNIntegrations-QA-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -515,15 +531,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-QA/Pods-RNIntegrations-QA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-QA/Pods-RNIntegrations-QA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-QA/Pods-RNIntegrations-QA-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B78387DC29276D9700E5CFF8 /* [CP] Copy Pods Resources */ = {
@@ -532,15 +548,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-QA/Pods-RNIntegrations-QA-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-QA/Pods-RNIntegrations-QA-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations/Pods-RNIntegrations-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNIntegrations-QA/Pods-RNIntegrations-QA-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -715,7 +731,7 @@
 		};
 		B78387B829276D6700E5CFF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RNIntegrations.debug.xcconfig */;
+			baseConfigurationReference = A617F5578EB093A384483D18 /* Pods-RNIntegrations-Dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -742,7 +758,7 @@
 		};
 		B78387B929276D6700E5CFF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RNIntegrations.release.xcconfig */;
+			baseConfigurationReference = 9CA63A1EA2BB39BE2E94C14D /* Pods-RNIntegrations-Dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -767,7 +783,7 @@
 		};
 		B78387CB29276D7600E5CFF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RNIntegrations.debug.xcconfig */;
+			baseConfigurationReference = 2815BE001F75686EC1303424 /* Pods-RNIntegrations-Prod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -794,7 +810,7 @@
 		};
 		B78387CC29276D7600E5CFF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RNIntegrations.release.xcconfig */;
+			baseConfigurationReference = 5BA1BF0BC84FC99EA63F5923 /* Pods-RNIntegrations-Prod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -819,7 +835,7 @@
 		};
 		B78387DE29276D9700E5CFF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RNIntegrations.debug.xcconfig */;
+			baseConfigurationReference = 7604A2512B4D5463CA2F06EB /* Pods-RNIntegrations-QA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -846,7 +862,7 @@
 		};
 		B78387DF29276D9700E5CFF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RNIntegrations.release.xcconfig */;
+			baseConfigurationReference = 52EFA76CABE409B666E3B8F5 /* Pods-RNIntegrations-QA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
