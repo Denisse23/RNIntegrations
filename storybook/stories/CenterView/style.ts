@@ -4,6 +4,7 @@ export default {
   main: {
     flex: 1,
     justifyContent: 'center',
+    paddingHorizontal: 32,
     backgroundColor: '#F5FCFF',
   } as ViewStyle,
 };

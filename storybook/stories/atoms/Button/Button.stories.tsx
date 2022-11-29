@@ -27,4 +27,24 @@ storiesOf('Button', module)
         type="secondary"
       />
     </CustomThemeProvider>
+  ))
+  .add('primaryText', () => (
+    <CustomThemeProvider>
+      <Button
+        disabled={boolean('Disabled', false)}
+        text={text('Text', 'Primary Text')}
+        onPress={action('onPressButton')}
+        type="primaryText"
+      />
+    </CustomThemeProvider>
+  ))
+  .add('secondaryText', () => (
+    <CustomThemeProvider>
+      <Button
+        disabled={boolean('Disabled', false)}
+        text={text('Text', 'Secondary Text')}
+        onPress={action('onPressButton')}
+        type="secondaryText"
+      />
+    </CustomThemeProvider>
   ));

@@ -86,3 +86,25 @@ yarn ios_prod
 - Strings Localization
 - Theming with emotion and custom
 - UI Testing: Jest snapshots
+- Storybook to UI components visualization and documentation [storybook](https://storybook.js.org/docs/react/get-started/introduction)
+
+<h3>Steps to launch storybook</h3>
+
+In index.js file:
+
+- Comment line 6 to 10.
+- Uncomment line 13.
+
+```
+yarn storybook
+```
+
+```
+yarn ios_dev
+```
+
+or
+
+```
+yarn android_dev
+```
