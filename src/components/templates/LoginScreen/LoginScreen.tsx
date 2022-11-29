@@ -34,6 +34,7 @@ const LoginScreen = () => {
           onChangeText={setEmailValue}
           error={emailError}
           onChangeError={setEmailError}
+          testID={TEST_IDS.inputs.emailInput}
         />
         <Divider />
         <CustomInput
@@ -43,6 +44,7 @@ const LoginScreen = () => {
           onChangeText={setPasswordValue}
           error={passwordError}
           onChangeError={setPasswordError}
+          testID={TEST_IDS.inputs.passwordInput}
         />
         <LargeDivider />
         <LargeDivider />
@@ -56,6 +58,7 @@ const LoginScreen = () => {
           text={strings.authentication.notAccount}
           type="secondaryText"
           onPress={() => navigation.navigate('SignUpScreen')}
+          testID={TEST_IDS.buttons.notAccountButton}
         />
       </StyledContainer>
     </FormLayout>

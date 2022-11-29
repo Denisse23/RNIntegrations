@@ -6,5 +6,11 @@ export default {
   buttons: {
     signInButton: 'sign-in-button',
     signUpButton: 'sign-up-button',
+    notAccountButton: 'not-account-button',
+    alreadyHaveAccountButton: 'already-have-account-button',
+  },
+  inputs: {
+    emailInput: 'email-input',
+    passwordInput: 'password-input',
   },
 };

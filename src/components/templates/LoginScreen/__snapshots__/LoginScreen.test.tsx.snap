@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginScreen should match the snapshot 1`] = `
+<RCTSafeAreaView
+  accessibilityLabel="sign-in-screen"
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+  testID="sign-in-screen"
+>
+  <RCTScrollView
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Array [
+              Object {
+                "padding": 37.5,
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "marginTop": 234.375,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            size="xxl"
+            style={
+              Array [
+                Object {
+                  "color": "#353434",
+                  "fontSize": 46.875,
+                  "fontWeight": "700",
+                },
+                undefined,
+              ]
+            }
+            type="bold"
+          >
+            Login undefined
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 75,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            error={null}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#D5D5D533",
+                  "borderBottomWidth": 2.34375,
+                  "borderColor": "#D5D5D5",
+                  "borderLeftWidth": 7.03125,
+                  "borderRadius": 75,
+                  "borderRightWidth": 2.34375,
+                  "borderTopWidth": 7.03125,
+                  "height": 117.1875,
+                  "paddingHorizontal": 18.75,
+                },
+                undefined,
+              ]
+            }
+          >
+            <TextInput
+              accessibilityLabel="email-input"
+              autoCapitalize="none"
+              keyboardType="email-address"
+              maxLength={100}
+              onChangeText={[Function]}
+              placeholder="Email"
+              placeholderTextColor="#A9A8A3"
+              style={
+                Array [
+                  Object {
+                    "color": "#353434",
+                    "fontSize": 32.8125,
+                    "height": "100%",
+                    "paddingHorizontal": 43.9453125,
+                    "paddingTop": 0,
+                    "position": "absolute",
+                    "width": "100%",
+                  },
+                  undefined,
+                ]
+              }
+              testID="email-input"
+              value=""
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 37.5,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            error={null}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#D5D5D533",
+                  "borderBottomWidth": 2.34375,
+                  "borderColor": "#D5D5D5",
+                  "borderLeftWidth": 7.03125,
+                  "borderRadius": 75,
+                  "borderRightWidth": 2.34375,
+                  "borderTopWidth": 7.03125,
+                  "height": 117.1875,
+                  "paddingHorizontal": 18.75,
+                },
+                undefined,
+              ]
+            }
+          >
+            <TextInput
+              accessibilityLabel="password-input"
+              autoCapitalize="none"
+              keyboardType="default"
+              multiline={false}
+              onChangeText={[Function]}
+              placeholder="Password"
+              placeholderTextColor="#A9A8A3"
+              secureTextEntry={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#353434",
+                    "fontSize": 32.8125,
+                    "height": "100%",
+                    "paddingHorizontal": 43.9453125,
+                    "paddingTop": 0,
+                    "position": "absolute",
+                    "width": "100%",
+                  },
+                  undefined,
+                ]
+              }
+              testID="password-input"
+              textContentType="password"
+              value=""
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 75,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 75,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            accessibilityLabel="sign-in-button"
+            accessibilityState={
+              Object {
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5BE59",
+                "borderRadius": 75,
+                "height": 107.8125,
+                "justifyContent": "center",
+                "opacity": 0.6,
+              }
+            }
+            testID="sign-in-button"
+          >
+            <Text
+              size="md"
+              style={
+                Array [
+                  Object {
+                    "color": "#353434",
+                    "fontSize": 32.8125,
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#353434",
+                  },
+                ]
+              }
+              type="bold"
+            >
+              Login
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="not-account-button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FAFAFA",
+                "borderRadius": 75,
+                "height": 107.8125,
+                "justifyContent": "center",
+                "opacity": 1,
+              }
+            }
+            testID="not-account-button"
+          >
+            <Text
+              size="md"
+              style={
+                Array [
+                  Object {
+                    "color": "#353434",
+                    "fontSize": 32.8125,
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#A9A8A3",
+                  },
+                ]
+              }
+              type="bold"
+            >
+              Don't have an account yet? Sign up
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
