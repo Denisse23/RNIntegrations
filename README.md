@@ -92,8 +92,9 @@ yarn ios_prod
 
 In index.js file:
 
-- Comment line 6 to 10.
-- Uncomment line 13.
+- Temporary comment line 6 to 10.
+- Temporary uncomment line 13.
+- Then run storybook and the app.
 
 ```
 yarn storybook
@@ -108,3 +109,6 @@ or
 ```
 yarn android_dev
 ```
+
+You should be able to select the stories in the [localhost](http://localhost:7007/?path=/story/welcome--to-storybook) and see the component rendered in the simulator/emulator.
+<img width="1438" alt="Screen Shot 2022-11-29 at 10 54 02" src="https://user-images.githubusercontent.com/6572064/204593623-0d751e46-b427-4a1b-912f-77b59bf2ff10.png">
