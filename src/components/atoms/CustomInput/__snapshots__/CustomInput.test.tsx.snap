@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomInput Email correct should match the snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#D5D5D533",
+        "borderBottomWidth": 2.34375,
+        "borderColor": "#D5D5D5",
+        "borderLeftWidth": 7.03125,
+        "borderRadius": 75,
+        "borderRightWidth": 2.34375,
+        "borderTopWidth": 7.03125,
+        "height": 117.1875,
+        "paddingHorizontal": 18.75,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 28.125,
+          "fontWeight": "400",
+        },
+        Array [
+          Object {
+            "color": "#A9A8A3",
+            "marginLeft": 10.986328125,
+            "marginTop": 21.97265625,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    Email
+  </Text>
+  <TextInput
+    accessibilityLabel="input-email"
+    autoCapitalize="none"
+    correctText="email@domain.com"
+    incorrectText="email@domain@domain.com"
+    keyboardType="email-address"
+    maxLength={100}
+    placeholder="Email"
+    placeholderTextColor="#A9A8A3"
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 32.8125,
+          "height": "100%",
+          "paddingHorizontal": 43.9453125,
+          "paddingTop": 43.9453125,
+          "position": "absolute",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    testID="input-email"
+    value="email@domain.com"
+  />
+</View>
+`;
+
+exports[`CustomInput Email incorrect should match the snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#D5D5D533",
+        "borderBottomWidth": 2.34375,
+        "borderColor": "#D5D5D5",
+        "borderLeftWidth": 7.03125,
+        "borderRadius": 75,
+        "borderRightWidth": 2.34375,
+        "borderTopWidth": 7.03125,
+        "height": 117.1875,
+        "paddingHorizontal": 18.75,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 28.125,
+          "fontWeight": "400",
+        },
+        Array [
+          Object {
+            "color": "#A9A8A3",
+            "marginLeft": 10.986328125,
+            "marginTop": 21.97265625,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    Email
+  </Text>
+  <TextInput
+    accessibilityLabel="input-email"
+    autoCapitalize="none"
+    correctText="email@domain.com"
+    incorrectText="email@domain@domain.com"
+    keyboardType="email-address"
+    maxLength={100}
+    placeholder="Email"
+    placeholderTextColor="#A9A8A3"
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 32.8125,
+          "height": "100%",
+          "paddingHorizontal": 43.9453125,
+          "paddingTop": 43.9453125,
+          "position": "absolute",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    testID="input-email"
+    value="email@domain@domain.com"
+  />
+</View>
+`;
+
+exports[`CustomInput Name correct should match the snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#D5D5D533",
+        "borderBottomWidth": 2.34375,
+        "borderColor": "#D5D5D5",
+        "borderLeftWidth": 7.03125,
+        "borderRadius": 75,
+        "borderRightWidth": 2.34375,
+        "borderTopWidth": 7.03125,
+        "height": 117.1875,
+        "paddingHorizontal": 18.75,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 28.125,
+          "fontWeight": "400",
+        },
+        Array [
+          Object {
+            "color": "#A9A8A3",
+            "marginLeft": 10.986328125,
+            "marginTop": 21.97265625,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    Name
+  </Text>
+  <TextInput
+    correctText="Test"
+    incorrectText="Test1234"
+    maxLength={50}
+    placeholder="Name"
+    placeholderTextColor="#A9A8A3"
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 32.8125,
+          "height": "100%",
+          "paddingHorizontal": 43.9453125,
+          "paddingTop": 43.9453125,
+          "position": "absolute",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    value="Test"
+  />
+</View>
+`;
+
+exports[`CustomInput Name incorrect should match the snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#D5D5D533",
+        "borderBottomWidth": 2.34375,
+        "borderColor": "#D5D5D5",
+        "borderLeftWidth": 7.03125,
+        "borderRadius": 75,
+        "borderRightWidth": 2.34375,
+        "borderTopWidth": 7.03125,
+        "height": 117.1875,
+        "paddingHorizontal": 18.75,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 28.125,
+          "fontWeight": "400",
+        },
+        Array [
+          Object {
+            "color": "#A9A8A3",
+            "marginLeft": 10.986328125,
+            "marginTop": 21.97265625,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    Name
+  </Text>
+  <TextInput
+    correctText="Test"
+    incorrectText="Test1234"
+    maxLength={50}
+    placeholder="Name"
+    placeholderTextColor="#A9A8A3"
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 32.8125,
+          "height": "100%",
+          "paddingHorizontal": 43.9453125,
+          "paddingTop": 43.9453125,
+          "position": "absolute",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    value="Test1234"
+  />
+</View>
+`;
+
+exports[`CustomInput New password correct should match the snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#D5D5D533",
+        "borderBottomWidth": 2.34375,
+        "borderColor": "#D5D5D5",
+        "borderLeftWidth": 7.03125,
+        "borderRadius": 75,
+        "borderRightWidth": 2.34375,
+        "borderTopWidth": 7.03125,
+        "height": 117.1875,
+        "paddingHorizontal": 18.75,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 28.125,
+          "fontWeight": "400",
+        },
+        Array [
+          Object {
+            "color": "#A9A8A3",
+            "marginLeft": 10.986328125,
+            "marginTop": 21.97265625,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    New password
+  </Text>
+  <TextInput
+    autoCapitalize="none"
+    correctText="Test12345!"
+    incorrectText="Test234"
+    keyboardType="default"
+    maxLength={100}
+    multiline={false}
+    placeholder="New password"
+    placeholderTextColor="#A9A8A3"
+    secureTextEntry={true}
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 32.8125,
+          "height": "100%",
+          "paddingHorizontal": 43.9453125,
+          "paddingTop": 43.9453125,
+          "position": "absolute",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    textContentType="newPassword"
+    value="Test12345!"
+  />
+</View>
+`;
+
+exports[`CustomInput New password incorrect should match the snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#D5D5D533",
+        "borderBottomWidth": 2.34375,
+        "borderColor": "#D5D5D5",
+        "borderLeftWidth": 7.03125,
+        "borderRadius": 75,
+        "borderRightWidth": 2.34375,
+        "borderTopWidth": 7.03125,
+        "height": 117.1875,
+        "paddingHorizontal": 18.75,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 28.125,
+          "fontWeight": "400",
+        },
+        Array [
+          Object {
+            "color": "#A9A8A3",
+            "marginLeft": 10.986328125,
+            "marginTop": 21.97265625,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    New password
+  </Text>
+  <TextInput
+    autoCapitalize="none"
+    correctText="Test12345!"
+    incorrectText="Test234"
+    keyboardType="default"
+    maxLength={100}
+    multiline={false}
+    placeholder="New password"
+    placeholderTextColor="#A9A8A3"
+    secureTextEntry={true}
+    style={
+      Array [
+        Object {
+          "color": "#353434",
+          "fontSize": 32.8125,
+          "height": "100%",
+          "paddingHorizontal": 43.9453125,
+          "paddingTop": 43.9453125,
+          "position": "absolute",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    textContentType="newPassword"
+    value="Test234"
+  />
+</View>
+`;

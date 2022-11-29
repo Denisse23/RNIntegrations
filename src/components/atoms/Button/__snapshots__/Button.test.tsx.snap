@@ -15,10 +15,11 @@ exports[`Button Primary Button should match the snapshot 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "#E5B600",
-      "borderRadius": 37.5,
-      "opacity": 0.6,
-      "padding": 28.125,
+      "backgroundColor": "#F5BE59",
+      "borderRadius": 75,
+      "height": 107.8125,
+      "justifyContent": "center",
+      "opacity": 1,
     }
   }
 >
@@ -27,12 +28,12 @@ exports[`Button Primary Button should match the snapshot 1`] = `
     style={
       Array [
         Object {
-          "color": "#1c1b1b",
+          "color": "#353434",
           "fontSize": 32.8125,
           "fontWeight": "700",
         },
         Object {
-          "color": "#FFFFFF",
+          "color": "#353434",
         },
       ]
     }
@@ -58,10 +59,11 @@ exports[`Button Primary Text Button should match the snapshot 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "#FFFFFF",
-      "borderRadius": 37.5,
-      "opacity": 0.6,
-      "padding": 28.125,
+      "backgroundColor": "#FAFAFA",
+      "borderRadius": 75,
+      "height": 107.8125,
+      "justifyContent": "center",
+      "opacity": 1,
     }
   }
 >
@@ -70,12 +72,12 @@ exports[`Button Primary Text Button should match the snapshot 1`] = `
     style={
       Array [
         Object {
-          "color": "#1c1b1b",
+          "color": "#353434",
           "fontSize": 32.8125,
           "fontWeight": "700",
         },
         Object {
-          "color": "#E5B600",
+          "color": "#353434",
         },
       ]
     }
@@ -101,10 +103,11 @@ exports[`Button Secondary Button should match the snapshot 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "#cfcfd1",
-      "borderRadius": 37.5,
-      "opacity": 0.6,
-      "padding": 28.125,
+      "backgroundColor": "#353434",
+      "borderRadius": 75,
+      "height": 107.8125,
+      "justifyContent": "center",
+      "opacity": 1,
     }
   }
 >
@@ -113,12 +116,12 @@ exports[`Button Secondary Button should match the snapshot 1`] = `
     style={
       Array [
         Object {
-          "color": "#1c1b1b",
+          "color": "#353434",
           "fontSize": 32.8125,
           "fontWeight": "700",
         },
         Object {
-          "color": "#1c1b1b",
+          "color": "#FAFAFA",
         },
       ]
     }
@@ -144,10 +147,11 @@ exports[`Button Secondary Text Button should match the snapshot 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "#FFFFFF",
-      "borderRadius": 37.5,
-      "opacity": 0.6,
-      "padding": 28.125,
+      "backgroundColor": "#FAFAFA",
+      "borderRadius": 75,
+      "height": 107.8125,
+      "justifyContent": "center",
+      "opacity": 1,
     }
   }
 >
@@ -156,12 +160,12 @@ exports[`Button Secondary Text Button should match the snapshot 1`] = `
     style={
       Array [
         Object {
-          "color": "#1c1b1b",
+          "color": "#353434",
           "fontSize": 32.8125,
           "fontWeight": "700",
         },
         Object {
-          "color": "#363641",
+          "color": "#A9A8A3",
         },
       ]
     }

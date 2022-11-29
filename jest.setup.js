@@ -1,4 +1,11 @@
 import 'react-native-gesture-handler/jestSetup';
+import { NativeModules } from 'react-native';
+
+// monkey patching the locale to avoid the error:
+//  Something went wrong initializing the native ReactLocalization module
+NativeModules.ReactLocalization = {
+  language: 'en_US',
+};
 
 jest.mock('react-native-reanimated', () => {
   const Reanimated = require('react-native-reanimated/mock');

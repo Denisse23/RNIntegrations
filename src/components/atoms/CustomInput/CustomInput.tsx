@@ -25,7 +25,6 @@ const CustomInput = ({
   onChangeError,
   placeholder,
   value,
-  onChangeText,
   testID,
   ...rest
 }: CustomInputProps) => {
@@ -53,7 +52,6 @@ const CustomInput = ({
           placeholder={label ? label : placeholder}
           placeholderTextColor={theme.colors.text200}
           value={value}
-          onChangeText={onChangeText}
           testID={testID}
           accessibilityLabel={testID}
           {...rest}
