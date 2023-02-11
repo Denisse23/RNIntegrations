@@ -22,7 +22,7 @@
 
 - React Native v0.70.1
 - Node v16.10.0 (Look at \.node-version)
-- Ruby v2.7.5 (Look at \.ruby-version)
+- Ruby v3.0.5 (Look at \.ruby-version)
 
 <h3>Steps to Run</h3>
 
