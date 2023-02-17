@@ -1,6 +1,6 @@
 import React from 'react';
 import { Keyboard, ViewProps } from 'react-native';
-import { Layout } from '@components/organisms';
+import Layout from '../Layout/Layout';
 import { StyledTouchableWithoutFeedback } from './FormLayout.styles';
 
 export interface FormLayoutProps {

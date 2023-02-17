@@ -4,6 +4,7 @@ import { useNavigation } from '@react-navigation/native';
 import { Button, CustomInput, CustomText } from '@components/atoms';
 import { FormLayout } from '@components/organisms';
 import { NavigationType } from '@navigation/types';
+import { useAuth } from '@hooks';
 import { Divider, LargeDivider } from '@styles/SharedStyles';
 import { INPUT_COMMON_PROPS, TEST_IDS } from '@constants';
 import { StyledContainer } from './LoginScreen.styles';
@@ -11,6 +12,9 @@ import strings from '@localization';
 
 const LoginScreen = () => {
   const navigation = useNavigation<NavigationType>();
+
+  const { onLoginPress } = useAuth();
+
   const [emailValue, setEmailValue] = useState('');
   const [passwordValue, setPasswordValue] = useState('');
   const [emailError, setEmailError] = useState<string | null>(null);
@@ -53,6 +57,7 @@ const LoginScreen = () => {
           type="primary"
           disabled={loginDisabled()}
           testID={TEST_IDS.buttons.signInButton}
+          onPress={onLoginPress}
         />
         <Button
           text={strings.authentication.notAccount}

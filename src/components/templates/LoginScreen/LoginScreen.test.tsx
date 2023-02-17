@@ -20,11 +20,11 @@ describe('LoginScreen', () => {
 
     const emailInput = getByTestId(TEST_IDS.inputs.emailInput);
     await waitFor(() => {
-      fireEvent.changeText(emailInput, 'test@icoms.co');
+      fireEvent.changeText(emailInput, 'test@gmail.com');
     });
 
     await waitFor(() => {
-      fireEvent.changeText(emailInput, 'test@icoms.co');
+      fireEvent.changeText(emailInput, 'test@gmail.com');
     });
 
     const button = getByTestId(TEST_IDS.buttons.signInButton);
@@ -42,12 +42,12 @@ describe('LoginScreen', () => {
     const emailInput = getByTestId(TEST_IDS.inputs.emailInput);
     const passwordInput = getByTestId(TEST_IDS.inputs.passwordInput);
     await waitFor(() => {
-      fireEvent.changeText(emailInput, 'test@icoms.co');
+      fireEvent.changeText(emailInput, 'test@gmail.com');
       fireEvent.changeText(passwordInput, 'Test12345!');
     });
 
     await waitFor(() => {
-      fireEvent.changeText(emailInput, 'test@icoms.co');
+      fireEvent.changeText(emailInput, 'test@gmail.com');
     });
 
     const button = getByTestId(TEST_IDS.buttons.signInButton);

@@ -15,13 +15,14 @@ module.exports = {
     alias: {
       "@components": "./src/components",
       "@constants": "./src/constants",
+      "@hooks": "./src/hooks",
       "@localization": "./src/localization",
       "@navigation": "./src/navigation",
-      "@redux": "./src/redux",
+      "@state": "./src/state",
       "@services": "./src/services",
       "@styles": "./src/styles",
       "@theme": "./src/theme",
       "@utils": "./src/utils",
     }
-  }]],
+  }], 'react-native-reanimated/plugin'],
 };
