@@ -9,12 +9,12 @@ const BaseNavigation = () => {
 
   return (
     <NavigationContainer>
-      {/* {
-        userIsAuthorized ? */}
-      <DrawerNavigator />
-      {/* :
+      {
+        userIsAuthorized ?
+          <DrawerNavigator />
+          :
           <AuthStackNavigator />
-      } */}
+      }
     </NavigationContainer>
   );
 };
