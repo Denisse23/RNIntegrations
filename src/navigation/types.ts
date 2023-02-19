@@ -12,7 +12,7 @@ export type DrawerParamsList = {
 }
 
 export type AppStackParamsList = {
-  DrawerNavigator: undefined;
+  BottomTabsNavigator: undefined;
   HomeScreen: undefined;
 }
 
@@ -25,6 +25,12 @@ export type NavigationType = StackNavigationProp<BaseStackParamsList>;
 export type AuthScreensComponent = {
   name: keyof AuthStackParamsList;
   component: React.ComponentType<any>;
+};
+
+export type BottomTabsScreensComponent = {
+  name: keyof AppStackParamsList;
+  component: React.ComponentType<any>;
+  title: string;
 };
 
 export type AppMainScreensComponent = {

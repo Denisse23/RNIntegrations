@@ -1,9 +1,10 @@
 import { HomeScreen } from "@components/templates";
 import { AppMainScreensComponent } from "@navigation/types";
+import BottomTabsNavigator from "@navigation/BottomTabsNavigator";
 
 export default [
     {
-        name: 'HomeScreen',
-        component: HomeScreen,
+        name: 'BottomTabsNavigator',
+        component: BottomTabsNavigator,
     },
 ] as Array<AppMainScreensComponent>;

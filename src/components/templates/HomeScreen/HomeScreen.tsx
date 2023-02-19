@@ -6,7 +6,7 @@ const HomeScreen = () => {
 
     return (
         <Layout>
-            <CustomText>Hola</CustomText>
+            <CustomText>Hey!</CustomText>
         </Layout>
     );
 };

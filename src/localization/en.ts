@@ -18,4 +18,7 @@ export default {
     newPasswordInputError: 'Enter a secure password.',
     confirmPasswordError: "The password don't match.",
   },
+  bottomTabs: {
+    home: 'Home',
+  }
 };

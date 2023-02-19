@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { AuthSelectors } from '@state/auth/authSlice';
 import { useAuth } from '@hooks';
 import AuthStackNavigator from './AuthStackNavigator';
 import DrawerNavigator from './DrawerNavigator';
@@ -11,10 +10,11 @@ const BaseNavigation = () => {
   return (
     <NavigationContainer>
       {/* {
-        userIsAuthorized ?*/}
-      <AuthStackNavigator />
-      {/* <DrawerNavigator /> */}
-      {/* } */}
+        userIsAuthorized ? */}
+      <DrawerNavigator />
+      {/* :
+          <AuthStackNavigator />
+      } */}
     </NavigationContainer>
   );
 };
