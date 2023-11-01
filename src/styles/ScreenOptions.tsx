@@ -1,6 +1,5 @@
 import { StackNavigationOptions } from '@react-navigation/stack';
 import { DrawerNavigationOptions } from '@react-navigation/drawer';
-import { DefaultNavigatorOptions } from '@react-navigation/native'
 import { ThemeType } from '@theme/Themes';
 import { windowWidth } from '@utils/Scale';
 

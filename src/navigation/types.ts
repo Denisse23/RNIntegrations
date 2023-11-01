@@ -5,16 +5,16 @@ import { StackNavigationProp } from '@react-navigation/stack';
 export type AuthStackParamsList = {
   LoginScreen: undefined;
   SignUpScreen: undefined;
-}
+};
 
 export type DrawerParamsList = {
   AppStackNavigator: undefined;
-}
+};
 
 export type AppStackParamsList = {
   BottomTabsNavigator: undefined;
   HomeScreen: undefined;
-}
+};
 
 export type BaseStackParamsList = AuthStackParamsList & AppStackParamsList;
 
@@ -37,4 +37,3 @@ export type AppMainScreensComponent = {
   name: keyof AppStackParamsList;
   component: React.ComponentType<any>;
 };
-

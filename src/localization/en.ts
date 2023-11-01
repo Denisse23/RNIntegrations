@@ -20,5 +20,5 @@ export default {
   },
   bottomTabs: {
     home: 'Home',
-  }
+  },
 };

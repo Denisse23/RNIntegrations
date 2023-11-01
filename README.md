@@ -87,6 +87,8 @@ yarn ios_prod
 - Theming with emotion and custom
 - UI Testing: Jest snapshots
 - Storybook to UI components visualization and documentation [storybook](https://storybook.js.org/docs/react/get-started/introduction)
+- State management: [Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started)
+- Services: [RKT Query](https://redux-toolkit.js.org/rtk-query/overview) Redux Toolkit package: Allows to handle fetching functionality like: save the data in the store, managing states fetching, error, result, caching, etc.
 
 <h3>Steps to launch storybook</h3>
 

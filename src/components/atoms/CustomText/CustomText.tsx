@@ -19,8 +19,7 @@ const CustomText = ({
       type={type}
       testID={testID}
       accessibilityLabel={testID}
-      {...rest}
-    >
+      {...rest}>
       {children}
     </StyledText>
   );

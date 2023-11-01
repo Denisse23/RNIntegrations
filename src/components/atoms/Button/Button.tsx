@@ -31,13 +31,11 @@ const Button = ({ type, text, testID, ...rest }: ButtonProps) => {
       activeOpacity={theme.opacities[300]}
       testID={testID}
       accessibilityLabel={testID}
-      {...rest}
-    >
+      {...rest}>
       <CustomText
         type={'bold'}
         size={'md'}
-        style={{ color: buttonTextColor() }}
-      >
+        style={{ color: buttonTextColor() }}>
         {text}
       </CustomText>
     </StyledButton>

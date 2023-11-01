@@ -8,15 +8,15 @@ import { DrawerParamsList } from './types';
 const Drawer = createDrawerNavigator<DrawerParamsList>();
 
 const DrawerNavigator = () => {
-    const theme = useTheme();
+  const theme = useTheme();
 
-    return (
-        <Drawer.Navigator
-            initialRouteName="AppStackNavigator"
-            screenOptions={{ ...DrawerStyle(theme) }}>
-            <Drawer.Screen name="AppStackNavigator" component={AppStackNavigator} />
-        </Drawer.Navigator>
-    );
+  return (
+    <Drawer.Navigator
+      initialRouteName="AppStackNavigator"
+      screenOptions={{ ...DrawerStyle(theme) }}>
+      <Drawer.Screen name="AppStackNavigator" component={AppStackNavigator} />
+    </Drawer.Navigator>
+  );
 };
 
 export default DrawerNavigator;
