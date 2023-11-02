@@ -1,5 +1,5 @@
 import { AuthSelectors, login } from '@state/auth/authSlice';
-import { useAppSelector, useAppDispatch } from './useState';
+import { useAppDispatch, useAppSelector } from './useState';
 
 export const useAuth = () => {
   const dispatch = useAppDispatch();

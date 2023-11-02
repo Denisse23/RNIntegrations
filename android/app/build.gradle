@@ -1,6 +1,6 @@
 apply plugin: "com.android.application"
 project.ext.envConfigFiles = [
-        dev: ".env",
+        dev: ".env.dev",
         prod: ".env.prod",
         qa: ".env.qa",
 ]

@@ -1,8 +1,8 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
 import { fireEvent, waitFor } from '@testing-library/react-native';
-import Button, { ButtonProps } from './Button';
 import CustomThemeProvider from '@theme/CustomThemeProvider';
+import renderer from 'react-test-renderer';
+import Button, { ButtonProps } from './Button';
 
 const buttonTestTypes = [
   {
@@ -16,10 +16,6 @@ const buttonTestTypes = [
   {
     type: 'secondary',
     text: 'Secondary Button',
-  },
-  {
-    type: 'secondaryText',
-    text: 'Secondary Text Button',
   },
 ] as ButtonProps[];
 

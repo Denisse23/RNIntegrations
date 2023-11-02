@@ -1,10 +1,10 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import {
-  BASE_URL,
-  BASE_HEADER_XRAPID_API_KEY,
   BASE_HEADER_XRAPID_API_HOST,
+  BASE_HEADER_XRAPID_API_KEY,
+  BASE_URL,
   PROPERTIES_LIST_URL,
-} from 'react-native-dotenv';
+} from 'react-native-config';
 import type { PropertiesListResponse } from './types';
 
 export const propertiesApi = createApi({

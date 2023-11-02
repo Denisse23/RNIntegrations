@@ -15,6 +15,7 @@ module.exports = {
     alias: {
       "@components": "./src/components",
       "@constants": "./src/constants",
+      "@enums": "./src/enums",
       "@hooks": "./src/hooks",
       "@localization": "./src/localization",
       "@navigation": "./src/navigation",

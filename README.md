@@ -10,8 +10,10 @@
 - React Native CLI
 - Language: Typescript
 - Linting tool: EsLint
-- Code formatter: Prettier
-  (Runs Prettier as an ESLint rule for the eslint-plugin-prettier. It is used as dev dependency)
+  Recommendation: Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension.
+  - Organize imports: eslint-plugin-import
+- Code formatter: Prettier ESLint
+  Recommendation: Install [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) extension.
 - Styling lib: emotion/native
 
 <h2>Setup</h2>

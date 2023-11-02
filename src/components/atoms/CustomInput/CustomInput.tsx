@@ -1,13 +1,13 @@
-import React, { useEffect, useCallback } from 'react';
+import React, { useCallback, useEffect } from 'react';
 import { TextInputProps } from 'react-native';
 import { useTheme } from '@emotion/react';
+import strings from '@localization';
 import {
-  StyledInput,
   StyledContainer,
   StyledCustomText,
   StyledErrorCustomText,
+  StyledInput,
 } from './CustomInput.styles';
-import strings from '@localization';
 
 export interface CustomInputProps extends TextInputProps {
   label?: string;

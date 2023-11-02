@@ -69,6 +69,3 @@ buck-out/
 
 # Tests
 /test/coverage
-
-#vscode
-/.vscode

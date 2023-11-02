@@ -1,8 +1,8 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
-import FormLayout from './FormLayout';
 import { CustomText } from '@components/atoms';
 import CustomThemeProvider from '@theme/CustomThemeProvider';
+import renderer from 'react-test-renderer';
+import FormLayout from './FormLayout';
 
 describe('FormLayout', () => {
   it('should match the snapshot', () => {

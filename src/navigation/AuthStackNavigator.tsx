@@ -1,8 +1,8 @@
 import React from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
 import { useTheme } from '@emotion/react';
-import { AUTH_SCREENS } from '@constants';
+import { createStackNavigator } from '@react-navigation/stack';
 import { ScreenStyle } from '@styles/ScreenOptions';
+import { AUTH_SCREENS } from '@constants';
 import { AuthStackParamsList } from './types';
 
 const Stack = createStackNavigator<AuthStackParamsList>();

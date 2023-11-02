@@ -1,8 +1,8 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
-import Layout from './Layout';
 import { CustomText } from '@components/atoms';
 import CustomThemeProvider from '@theme/CustomThemeProvider';
+import renderer from 'react-test-renderer';
+import Layout from './Layout';
 
 describe('Layout', () => {
   it('should match the snapshot', () => {

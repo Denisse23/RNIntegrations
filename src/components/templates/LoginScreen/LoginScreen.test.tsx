@@ -1,9 +1,9 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
-import { render, fireEvent, waitFor } from '@testing-library/react-native';
-import LoginScreen from './LoginScreen';
+import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import CustomThemeProvider from '@theme/CustomThemeProvider';
+import renderer from 'react-test-renderer';
 import { TEST_IDS } from '@constants';
+import LoginScreen from './LoginScreen';
 
 jest.mock('@react-navigation/native', () => ({
   ...jest.requireActual('@react-navigation/native'),

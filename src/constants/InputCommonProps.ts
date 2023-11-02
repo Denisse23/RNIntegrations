@@ -1,6 +1,6 @@
 import { CustomInputProps } from '@components/atoms';
-import REGEX from './Regex';
 import strings from '@localization';
+import REGEX from './Regex';
 
 export default {
   name: {

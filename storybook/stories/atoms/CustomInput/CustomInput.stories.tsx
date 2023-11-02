@@ -1,7 +1,7 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react-native';
 import { CustomInput } from '@components/atoms';
 import { text } from '@storybook/addon-knobs';
+import { storiesOf } from '@storybook/react-native';
 import CustomThemeProvider from '@theme/CustomThemeProvider';
 import CenterView from '../../CenterView';
 

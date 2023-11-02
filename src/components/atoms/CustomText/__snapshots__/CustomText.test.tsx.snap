@@ -1,12 +1,193 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CustomText should match the snapshot 1`] = `
+exports[`CustomText bold should match the snapshot 1`] = `
 <Text
   style={
     Array [
       Object {
         "color": "#353434",
         "fontSize": 28.125,
+        "fontWeight": "700",
+      },
+      undefined,
+    ]
+  }
+  type="bold"
+>
+  Test
+</Text>
+`;
+
+exports[`CustomText danger should match the snapshot 1`] = `
+<Text
+  state="danger"
+  style={
+    Array [
+      Object {
+        "color": "#E03D17",
+        "fontSize": 28.125,
+        "fontWeight": "400",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`CustomText info should match the snapshot 1`] = `
+<Text
+  state="info"
+  style={
+    Array [
+      Object {
+        "color": "#A9A8A3",
+        "fontSize": 28.125,
+        "fontWeight": "400",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`CustomText lg should match the snapshot 1`] = `
+<Text
+  size="lg"
+  style={
+    Array [
+      Object {
+        "color": "#353434",
+        "fontSize": 37.5,
+        "fontWeight": "400",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`CustomText md should match the snapshot 1`] = `
+<Text
+  size="md"
+  style={
+    Array [
+      Object {
+        "color": "#353434",
+        "fontSize": 32.8125,
+        "fontWeight": "400",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`CustomText regular should match the snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#353434",
+        "fontSize": 28.125,
+        "fontWeight": "400",
+      },
+      undefined,
+    ]
+  }
+  type="regular"
+>
+  Test
+</Text>
+`;
+
+exports[`CustomText sm should match the snapshot 1`] = `
+<Text
+  size="sm"
+  style={
+    Array [
+      Object {
+        "color": "#353434",
+        "fontSize": 28.125,
+        "fontWeight": "400",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`CustomText success should match the snapshot 1`] = `
+<Text
+  state="success"
+  style={
+    Array [
+      Object {
+        "color": "#9BDD44",
+        "fontSize": 28.125,
+        "fontWeight": "400",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`CustomText warning should match the snapshot 1`] = `
+<Text
+  state="warning"
+  style={
+    Array [
+      Object {
+        "color": "#F37B0C",
+        "fontSize": 28.125,
+        "fontWeight": "400",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`CustomText xl should match the snapshot 1`] = `
+<Text
+  size="xl"
+  style={
+    Array [
+      Object {
+        "color": "#353434",
+        "fontSize": 42.1875,
+        "fontWeight": "400",
+      },
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`CustomText xxl should match the snapshot 1`] = `
+<Text
+  size="xxl"
+  style={
+    Array [
+      Object {
+        "color": "#353434",
+        "fontSize": 46.875,
         "fontWeight": "400",
       },
       undefined,

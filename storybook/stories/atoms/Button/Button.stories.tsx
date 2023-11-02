@@ -1,8 +1,8 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react-native';
 import { Button } from '@components/atoms';
-import { text, boolean } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
+import { boolean, text } from '@storybook/addon-knobs';
+import { storiesOf } from '@storybook/react-native';
 import CustomThemeProvider from '@theme/CustomThemeProvider';
 import CenterView from '../../CenterView';
 

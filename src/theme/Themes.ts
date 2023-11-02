@@ -2,12 +2,12 @@ import {
   DarkTheme as DefaultDarkTheme,
   DefaultTheme,
 } from '@react-navigation/native';
-import lightColors from './LightColors';
+import BoderRadius from './BoderRadius';
 import darkColors from './DarkColors';
 import FontSizes from './FontSizes';
-import Spacings from './Spacings';
-import BoderRadius from './BoderRadius';
+import lightColors from './LightColors';
 import Opacities from './Opacities';
+import Spacings from './Spacings';
 
 const ColorScheme = {
   LIGHT: 'light',

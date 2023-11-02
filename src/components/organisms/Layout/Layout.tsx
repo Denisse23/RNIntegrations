@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollView, ViewProps } from 'react-native';
-import { StyledSafeAreView, StyledContainer } from './Layout.styles';
+import { StyledContainer, StyledSafeAreView } from './Layout.styles';
 
 export interface LayoutProps {
   scroll?: boolean;

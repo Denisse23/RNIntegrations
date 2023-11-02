@@ -1,5 +1,5 @@
-import { AppMainScreensComponent } from '@navigation/types';
 import BottomTabsNavigator from '@navigation/BottomTabsNavigator';
+import { AppMainScreensComponent } from '@navigation/types';
 
 export default [
   {

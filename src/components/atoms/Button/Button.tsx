@@ -1,17 +1,29 @@
-import React from 'react';
-import { useTheme } from '@emotion/react';
+import React, { useMemo } from 'react';
 import { TouchableOpacityProps } from 'react-native';
-import CustomText from '@components/atoms/CustomText/CustomText';
+import CustomText, {
+  CustomTextProps,
+} from '@components/atoms/CustomText/CustomText';
+import { useTheme } from '@emotion/react';
+import { STATES } from '@enums';
 import { StyledButton } from './Button.styles';
 
 export interface ButtonProps extends TouchableOpacityProps {
-  type: 'primary' | 'secondary' | 'primaryText' | 'secondaryText';
   text: string;
+  type?: 'primary' | 'secondary' | 'primaryText';
+  state?: STATES;
+  customTextProps?: CustomTextProps;
 }
 
-const Button = ({ type, text, testID, ...rest }: ButtonProps) => {
+const Button = ({
+  type,
+  state,
+  text,
+  testID,
+  customTextProps,
+  ...rest
+}: ButtonProps) => {
   const theme = useTheme();
-  const buttonTextColor = () => {
+  const buttonTextColor = useMemo(() => {
     switch (type) {
       case 'primary':
         return theme.colors.text300;
@@ -19,14 +31,20 @@ const Button = ({ type, text, testID, ...rest }: ButtonProps) => {
         return theme.colors.text100;
       case 'primaryText':
         return theme.colors.text300;
-      case 'secondaryText':
-        return theme.colors.text200;
     }
-  };
+  }, [theme.colors.text100, theme.colors.text300, type]);
+
+  const getCustomTextProps = useMemo(() => {
+    return {
+      style: !state ? { color: buttonTextColor } : {},
+      ...customTextProps,
+    } as CustomTextProps;
+  }, [buttonTextColor, customTextProps, state]);
 
   return (
     <StyledButton
       type={type}
+      state={state}
       text={text}
       activeOpacity={theme.opacities[300]}
       testID={testID}
@@ -35,7 +53,8 @@ const Button = ({ type, text, testID, ...rest }: ButtonProps) => {
       <CustomText
         type={'bold'}
         size={'md'}
-        style={{ color: buttonTextColor() }}>
+        state={state}
+        {...getCustomTextProps}>
         {text}
       </CustomText>
     </StyledButton>

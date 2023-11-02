@@ -1,8 +1,8 @@
 import React from 'react';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { useTheme } from '@emotion/react';
-import { BOTTOM_TABS_SCREENS } from '@constants';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { BottomTabsStyle, ScreenStyle } from '@styles/ScreenOptions';
+import { BOTTOM_TABS_SCREENS } from '@constants';
 
 const Tab = createBottomTabNavigator();
 

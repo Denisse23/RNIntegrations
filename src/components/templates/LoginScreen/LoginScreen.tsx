@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import CONFIG from 'react-native-config';
-import { useNavigation } from '@react-navigation/native';
 import { Button, CustomInput, CustomText } from '@components/atoms';
 import { FormLayout } from '@components/organisms';
 import { NavigationType } from '@navigation/types';
-import { useAuth } from '@hooks';
+import { useNavigation } from '@react-navigation/native';
 import { Divider, LargeDivider } from '@styles/SharedStyles';
+import CONFIG from 'react-native-config';
 import { INPUT_COMMON_PROPS, TEST_IDS } from '@constants';
-import { StyledContainer } from './LoginScreen.styles';
+import { useAuth } from '@hooks';
 import strings from '@localization';
+import { StyledContainer } from './LoginScreen.styles';
 
 const LoginScreen = () => {
   const navigation = useNavigation<NavigationType>();

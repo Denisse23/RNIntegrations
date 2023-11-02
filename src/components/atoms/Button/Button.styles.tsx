@@ -1,27 +1,27 @@
 import styled from '@emotion/native';
 import { ThemeType } from '@theme/Themes';
-import { ButtonProps } from './Button';
 import { scaleBySize } from '@utils/Scale';
+import { getStateThemeColor } from '@utils/Theme';
+import { ButtonProps } from './Button';
 
 const getButtonBackgroundColor = (
   theme: ThemeType,
-  type: ButtonProps['type'],
+  type?: ButtonProps['type'],
+  state?: ButtonProps['state'],
 ) => {
   switch (type) {
     case 'primary':
-      return theme.colors.background400;
+      return getStateThemeColor(theme, state) ?? theme.colors.background400;
     case 'secondary':
       return theme.colors.background300;
     case 'primaryText':
-      return theme.colors.background100;
-    case 'secondaryText':
       return theme.colors.background100;
   }
 };
 
 export const StyledButton = styled.TouchableOpacity<ButtonProps>(
-  ({ theme, type, disabled }) => ({
-    backgroundColor: getButtonBackgroundColor(theme, type),
+  ({ theme, type, state, disabled }) => ({
+    backgroundColor: getButtonBackgroundColor(theme, type, state),
     alignItems: 'center',
     justifyContent: 'center',
     height: scaleBySize(46),

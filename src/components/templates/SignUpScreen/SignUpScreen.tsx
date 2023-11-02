@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigation } from '@react-navigation/native';
+import React, { useEffect, useState } from 'react';
 import { Button, CustomInput, CustomText } from '@components/atoms';
 import { FormLayout } from '@components/organisms';
 import { NavigationType } from '@navigation/types';
-import { INPUT_COMMON_PROPS, TEST_IDS } from '@constants';
+import { useNavigation } from '@react-navigation/native';
 import { Divider, LargeDivider } from '@styles/SharedStyles';
-import { StyledContainer } from './SignUpScreen.styles';
+import { INPUT_COMMON_PROPS, TEST_IDS } from '@constants';
 import strings from '@localization';
+import { StyledContainer } from './SignUpScreen.styles';
 
 const SignUpScreen = () => {
   const navigation = useNavigation<NavigationType>();

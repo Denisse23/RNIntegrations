@@ -1,8 +1,8 @@
 import React from 'react';
-import { Provider } from 'react-redux';
 import BaseNavigation from '@navigation/BaseNavigation';
-import CustomThemeProvider from '@theme/CustomThemeProvider';
 import { store } from '@state/store';
+import CustomThemeProvider from '@theme/CustomThemeProvider';
+import { Provider } from 'react-redux';
 
 const App = () => {
   return (

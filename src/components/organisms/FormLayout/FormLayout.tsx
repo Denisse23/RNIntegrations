@@ -1,7 +1,7 @@
 import React from 'react';
 import { Keyboard, ViewProps } from 'react-native';
-import Layout from '../Layout/Layout';
 import { StyledTouchableWithoutFeedback } from './FormLayout.styles';
+import Layout from '../Layout/Layout';
 
 export interface FormLayoutProps {
   testID?: ViewProps['testID'];

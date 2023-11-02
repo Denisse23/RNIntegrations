@@ -1,8 +1,8 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
-import CustomInput, { CustomInputProps } from './CustomInput';
-import { INPUT_COMMON_PROPS } from '@constants';
 import CustomThemeProvider from '@theme/CustomThemeProvider';
+import renderer from 'react-test-renderer';
+import { INPUT_COMMON_PROPS } from '@constants';
+import CustomInput, { CustomInputProps } from './CustomInput';
 
 interface CustomInputTestObj extends CustomInputProps {
   incorrectText: string;

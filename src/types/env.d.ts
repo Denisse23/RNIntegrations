@@ -1,4 +1,4 @@
-declare module 'react-native-dotenv' {
+declare module 'react-native-config' {
   //BASE
   export const BASE_URL = 'https://apidojo-booking-v1.p.rapidapi.com/';
   export const BASE_HEADER_XRAPID_API_KEY =

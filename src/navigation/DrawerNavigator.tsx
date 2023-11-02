@@ -1,8 +1,8 @@
 import React from 'react';
-import { createDrawerNavigator } from '@react-navigation/drawer';
 import { useTheme } from '@emotion/react';
-import AppStackNavigator from './AppStackNavigator';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 import { DrawerStyle } from '@styles/ScreenOptions';
+import AppStackNavigator from './AppStackNavigator';
 import { DrawerParamsList } from './types';
 
 const Drawer = createDrawerNavigator<DrawerParamsList>();
