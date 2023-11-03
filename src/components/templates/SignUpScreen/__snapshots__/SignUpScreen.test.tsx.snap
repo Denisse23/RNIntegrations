@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`LoginScreen should match the snapshot 1`] = `
+exports[`SignUpScreen should match the snapshot 1`] = `
 <RCTSafeAreaView
-  accessibilityLabel="sign-in-screen"
+  accessibilityLabel="sign-up-screen"
   style={
     Array [
       Object {
@@ -11,7 +11,7 @@ exports[`LoginScreen should match the snapshot 1`] = `
       undefined,
     ]
   }
-  testID="sign-in-screen"
+  testID="sign-up-screen"
 >
   <RCTScrollView
     showsVerticalScrollIndicator={false}
@@ -49,7 +49,7 @@ exports[`LoginScreen should match the snapshot 1`] = `
               },
               Array [
                 Object {
-                  "marginTop": 234.375,
+                  "marginTop": 117.1875,
                 },
                 undefined,
               ],
@@ -70,7 +70,7 @@ exports[`LoginScreen should match the snapshot 1`] = `
             }
             type="bold"
           >
-            Login undefined
+            Creat an account
           </Text>
           <View
             style={
@@ -157,9 +157,112 @@ exports[`LoginScreen should match the snapshot 1`] = `
             }
           >
             <TextInput
+              maxLength={50}
+              onChangeText={[Function]}
+              placeholder="First name"
+              placeholderTextColor="#A9A8A3"
+              style={
+                Array [
+                  Object {
+                    "color": "#353434",
+                    "fontSize": 32.8125,
+                    "height": "100%",
+                    "paddingHorizontal": 43.9453125,
+                    "paddingTop": 0,
+                    "position": "absolute",
+                    "width": "100%",
+                  },
+                  undefined,
+                ]
+              }
+              value=""
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 37.5,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            error={null}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#D5D5D533",
+                  "borderBottomWidth": 2.34375,
+                  "borderColor": "#D5D5D5",
+                  "borderLeftWidth": 7.03125,
+                  "borderRadius": 75,
+                  "borderRightWidth": 2.34375,
+                  "borderTopWidth": 7.03125,
+                  "height": 117.1875,
+                  "paddingHorizontal": 18.75,
+                },
+                undefined,
+              ]
+            }
+          >
+            <TextInput
+              maxLength={50}
+              onChangeText={[Function]}
+              placeholder="Last name"
+              placeholderTextColor="#A9A8A3"
+              style={
+                Array [
+                  Object {
+                    "color": "#353434",
+                    "fontSize": 32.8125,
+                    "height": "100%",
+                    "paddingHorizontal": 43.9453125,
+                    "paddingTop": 0,
+                    "position": "absolute",
+                    "width": "100%",
+                  },
+                  undefined,
+                ]
+              }
+              value=""
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 37.5,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            error={null}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#D5D5D533",
+                  "borderBottomWidth": 2.34375,
+                  "borderColor": "#D5D5D5",
+                  "borderLeftWidth": 7.03125,
+                  "borderRadius": 75,
+                  "borderRightWidth": 2.34375,
+                  "borderTopWidth": 7.03125,
+                  "height": 117.1875,
+                  "paddingHorizontal": 18.75,
+                },
+                undefined,
+              ]
+            }
+          >
+            <TextInput
               accessibilityLabel="password-input"
               autoCapitalize="none"
               keyboardType="default"
+              maxLength={100}
               multiline={false}
               onChangeText={[Function]}
               placeholder="Password"
@@ -180,6 +283,63 @@ exports[`LoginScreen should match the snapshot 1`] = `
                 ]
               }
               testID="password-input"
+              textContentType="newPassword"
+              value=""
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 37.5,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            error={null}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#D5D5D533",
+                  "borderBottomWidth": 2.34375,
+                  "borderColor": "#D5D5D5",
+                  "borderLeftWidth": 7.03125,
+                  "borderRadius": 75,
+                  "borderRightWidth": 2.34375,
+                  "borderTopWidth": 7.03125,
+                  "height": 117.1875,
+                  "paddingHorizontal": 18.75,
+                },
+                undefined,
+              ]
+            }
+          >
+            <TextInput
+              accessibilityLabel="confirm-password-input"
+              autoCapitalize="none"
+              keyboardType="default"
+              multiline={false}
+              onChangeText={[Function]}
+              placeholder="Confirm password"
+              placeholderTextColor="#A9A8A3"
+              secureTextEntry={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#353434",
+                    "fontSize": 32.8125,
+                    "height": "100%",
+                    "paddingHorizontal": 43.9453125,
+                    "paddingTop": 0,
+                    "position": "absolute",
+                    "width": "100%",
+                  },
+                  undefined,
+                ]
+              }
+              testID="confirm-password-input"
               textContentType="password"
               value=""
             />
@@ -205,7 +365,7 @@ exports[`LoginScreen should match the snapshot 1`] = `
             }
           />
           <View
-            accessibilityLabel="sign-in-button"
+            accessibilityLabel="sign-up-button"
             accessibilityState={
               Object {
                 "disabled": true,
@@ -231,7 +391,7 @@ exports[`LoginScreen should match the snapshot 1`] = `
                 "opacity": 0.6,
               }
             }
-            testID="sign-in-button"
+            testID="sign-up-button"
           >
             <Text
               size="md"
@@ -249,11 +409,11 @@ exports[`LoginScreen should match the snapshot 1`] = `
               }
               type="bold"
             >
-              Login
+              Sign Up
             </Text>
           </View>
           <View
-            accessibilityLabel="not-account-button"
+            accessibilityLabel="already-have-account-button"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -274,7 +434,7 @@ exports[`LoginScreen should match the snapshot 1`] = `
                 "opacity": 1,
               }
             }
-            testID="not-account-button"
+            testID="already-have-account-button"
           >
             <Text
               size="md"
@@ -286,13 +446,13 @@ exports[`LoginScreen should match the snapshot 1`] = `
                     "fontWeight": "700",
                   },
                   Object {
-                    "color": "#A9A8A3",
+                    "color": "#353434",
                   },
                 ]
               }
               type="bold"
             >
-              Don't have an account yet? Sign up
+              Already have an account? Log in
             </Text>
           </View>
         </View>

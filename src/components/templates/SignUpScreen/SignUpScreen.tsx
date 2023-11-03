@@ -63,6 +63,7 @@ const SignUpScreen = () => {
           onChangeText={setEmailValue}
           error={emailError}
           onChangeError={setEmailError}
+          testID={TEST_IDS.inputs.emailInput}
         />
         <Divider />
         <CustomInput
@@ -90,6 +91,7 @@ const SignUpScreen = () => {
           onChangeText={setPasswordValue}
           error={passwordError}
           onChangeError={setPasswordError}
+          testID={TEST_IDS.inputs.passwordInput}
         />
         <Divider />
         <CustomInput
@@ -99,6 +101,7 @@ const SignUpScreen = () => {
           onChangeText={setConfirmPasswordValue}
           error={confirmPasswordError}
           onChangeError={setConfirmPasswordError}
+          testID={TEST_IDS.inputs.configmPasswordInput}
         />
         <LargeDivider />
         <LargeDivider />
@@ -106,11 +109,13 @@ const SignUpScreen = () => {
           text={strings.authentication.signUp}
           type="primary"
           disabled={signUpDisabled()}
+          testID={TEST_IDS.buttons.signUpButton}
         />
         <Button
           text={strings.authentication.alreadyHaveAnAccount}
-          type="secondaryText"
+          type="primaryText"
           onPress={() => navigation.navigate('LoginScreen')}
+          testID={TEST_IDS.buttons.alreadyHaveAccountButton}
         />
       </StyledContainer>
     </FormLayout>

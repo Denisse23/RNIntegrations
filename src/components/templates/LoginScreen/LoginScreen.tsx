@@ -4,7 +4,7 @@ import { FormLayout } from '@components/organisms';
 import { NavigationType } from '@navigation/types';
 import { useNavigation } from '@react-navigation/native';
 import { Divider, LargeDivider } from '@styles/SharedStyles';
-import CONFIG from 'react-native-config';
+import { BUILD_ENV } from 'react-native-config';
 import { INPUT_COMMON_PROPS, TEST_IDS } from '@constants';
 import { useAuth } from '@hooks';
 import strings from '@localization';
@@ -28,7 +28,7 @@ const LoginScreen = () => {
     <FormLayout testID={TEST_IDS.templates.signInScreen}>
       <StyledContainer>
         <CustomText size="xxl" type="bold">
-          {`${strings.authentication.login} ${CONFIG.BUILD_ENV}`}
+          {`${strings.authentication.login} ${BUILD_ENV}`}
         </CustomText>
         <LargeDivider />
         <CustomInput
@@ -61,7 +61,7 @@ const LoginScreen = () => {
         />
         <Button
           text={strings.authentication.notAccount}
-          type="secondaryText"
+          type="primaryText"
           onPress={() => navigation.navigate('SignUpScreen')}
           testID={TEST_IDS.buttons.notAccountButton}
         />

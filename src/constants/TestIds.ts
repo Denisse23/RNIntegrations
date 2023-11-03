@@ -12,5 +12,8 @@ export default {
   inputs: {
     emailInput: 'email-input',
     passwordInput: 'password-input',
+    configmPasswordInput: 'confirm-password-input',
+    firstNameInput: 'first-name-input',
+    lastNameInput: 'last-name-input',
   },
 };

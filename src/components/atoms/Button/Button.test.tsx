@@ -2,6 +2,7 @@ import React from 'react';
 import { fireEvent, waitFor } from '@testing-library/react-native';
 import CustomThemeProvider from '@theme/CustomThemeProvider';
 import renderer from 'react-test-renderer';
+import { STATES } from '@enums';
 import Button, { ButtonProps } from './Button';
 
 const buttonTestTypes = [
@@ -23,7 +24,7 @@ describe('Button', () => {
   buttonTestTypes[0].onPress = jest.fn();
 
   let testButtonType = (button: ButtonProps) => {
-    it(`${button.text} should match the snapshot`, () => {
+    it(`${button.text} ${button.state ?? ''} should match the snapshot`, () => {
       const tree = renderer.create(
         <CustomThemeProvider>
           <Button {...button} />
@@ -35,6 +36,9 @@ describe('Button', () => {
 
   buttonTestTypes.forEach(button => {
     testButtonType(button);
+    Object.values(STATES).forEach(val => {
+      testButtonType({ ...button, state: val });
+    });
   });
 
   it('should call on press', async () => {
